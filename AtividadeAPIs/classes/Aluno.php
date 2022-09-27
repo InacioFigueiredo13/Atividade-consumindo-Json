@@ -53,6 +53,7 @@ class Aluno{
     public function setMedia($media){
         $this->media = $media;
     }
+
     public function calcularMedia($nota1, $nota2, $nota3){
         return $this->setMedia((($nota1 + $nota2 + $nota3) / 3));
     }
